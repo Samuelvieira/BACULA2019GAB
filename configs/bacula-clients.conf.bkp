@@ -1,3 +1,19 @@
+# Client (File Services) to backup
+ Client {
+ Name = hgsrv81-fd
+ Description = "SIM MP"
+ Address = 10.10.0.81
+ FDPort = 9102
+ Catalog = MyCatalog
+ Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+ File Retention = 60 days            # 60 days
+ Job Retention = 6 months            # six months
+ AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
+
+
+
 Client {
   Name = srv90-fd
   Address = 10.10.0.90
@@ -60,7 +76,7 @@ Client {
 # Client (File Services) to backup
    Client {
    Name = hgsrv119-fd
-   Address = 192.168.11.21
+   Address = 10.10.0.119
    FDPort = 9102
    Catalog = MyCatalog
    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
@@ -80,6 +96,20 @@ Client {
    Job Retention = 6 months            # six months
    AutoPrune = yes                     # Prune expired Jobs/Files
 }
+
+
+# Client (File Services) to backup
+   Client {
+   Name = hgsrv136-fd
+   Address = 10.10.0.136
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
 # Client (File Services) to backup
    Client {
    Name = hgsrv135-fd
@@ -95,6 +125,18 @@ Client {
 
 # Client (File Services) to backup
    Client {
+   Name = hgsrv147-fd
+   Address = 10.10.0.147
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
+# Client (File Services) to backup
+   Client {
    Name = hgsrv150-fd
    Address = 10.10.0.150
    FDPort = 9102
@@ -105,6 +147,30 @@ Client {
    AutoPrune = yes                     # Prune expired Jobs/Files
 }
 
+
+# Client (File Services) to backup
+   Client {
+   Name = hgsrv154-fd
+   Address = 10.10.0.154
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
+# Client (File Services) to backup
+   Client {
+   Name = hgsrv161-fd
+   Address = 10.10.0.161
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
 # Client (File Services) to backup
    Client {
    Name = hgsrv185-fd
@@ -131,6 +197,17 @@ Client {
    Client {
    Name = hgsrv195-fd
    Address = 10.10.0.195
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
+   Name = hgsrv206-fd
+   Address = 10.10.0.206
    FDPort = 9102
    Catalog = MyCatalog
    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
@@ -194,6 +271,17 @@ Client {
    Job Retention = 6 months            # six months
    AutoPrune = yes                     # Prune expired Jobs/Files
 }
+# Client (File Services) to backup ok
+   Client {
+   Name = hgsrv138-fd
+   Address = 10.10.0.138
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
 # Client (File Services) to backup ok 
    Client {
    Name = hgsrv142-fd
@@ -218,9 +306,31 @@ Client {
 }
 # Client (File Services) to backup
    Client {
+   Name = hgsrv156-fd
+   Address = 10.10.0.156
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
    Name = hgsrv50-fd
    Description = "CPPG"
    Address = 10.10.0.50
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
+   Name = hgsrv115-fd
+   Address = 10.10.0.115
    FDPort = 9102
    Catalog = MyCatalog
    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
@@ -306,6 +416,18 @@ Client {
    Job Retention = 6 months            # six months
    AutoPrune = yes                     # Prune expired Jobs/Files
 }
+# Client (File Services) to backup ok
+   Client {
+   Name = hgsrv162-fd
+   Address = 10.10.0.162
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
 # Client (File Services) to backup
    Client {
    Name = srv101-fd
@@ -368,6 +490,17 @@ Client {
 }
 # Client (File Services) to backup
    Client {
+   Name = hgsrv218-fd
+   Address = 10.10.0.218
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
    Name = srv118-fd
    Address = 10.10.0.118
    FDPort = 9102
@@ -390,8 +523,52 @@ Client {
 }
 # Client (File Services) to backup
    Client {
+   Name = srv137-fd
+   Address = 10.10.0.137
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
+   Name = srv146-fd
+   Address = 10.10.0.146
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
+   Name = srv148-fd
+   Address = 10.10.0.148
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
    Name = srv152-fd
    Address = 10.10.0.152
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
+   Name = srv159-fd
+   Address = 10.10.0.159
    FDPort = 9102
    Catalog = MyCatalog
    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
@@ -426,6 +603,17 @@ Client {
    Client {
    Name = srv225-fd
    Address = 10.10.0.225
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+# Client (File Services) to backup
+   Client {
+   Name = srv226-fd
+   Address = 10.10.0.226
    FDPort = 9102
    Catalog = MyCatalog
    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
@@ -493,6 +681,33 @@ Client {
    AutoPrune = yes                     # Prune expired Jobs/Files
 }
 
+
+# Client (File Services) to backup
+   Client {
+   Name = hgsrv109-fd
+   Address = 10.10.0.109
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
+
+# Client (File Services) to backup
+   Client {
+   Name = srv2-fd
+   Address = 10.10.0.2
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
+
 # Client (File Services) to backup
    Client {
    Name = srv151-fd
@@ -543,6 +758,18 @@ Client {
 }
 
 
+# BANCO PRODUCAO SIM
+   Client {
+   Name = srv166-fd
+   Address = 10.10.0.166
+   FDPort = 9102
+   Catalog = MyCatalog
+   Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+   File Retention = 60 days            # 60 days
+   Job Retention = 6 months            # six months
+   AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
     Client {
     Name = srv235-fd
     Address = 10.10.0.235
@@ -566,16 +793,27 @@ Client {
     AutoPrune = yes                     # Prune expired Jobs/Files
 }
 
-   # Client {
-   # Name = hgsrv216-fd
-   # Address = 10.10.0.216
-   # FDPort = 9102
-   # Catalog = MyCatalog
-   # Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-   # File Retention = 60 days            # 60 days
-   # Job Retention = 6 months            # six months
-   # AutoPrune = yes                     # Prune expired Jobs/Files
-#}
+    Client {
+    Name = srv140-fd
+    Address = 10.10.0.140
+    FDPort = 9102
+    Catalog = MyCatalog
+    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+    File Retention = 60 days            # 60 days
+    Job Retention = 6 months            # six months
+    AutoPrune = yes                     # Prune expired Jobs/Files
+}
+
+    Client {
+    Name = hgsrv216-fd
+    Address = 10.10.0.216
+    FDPort = 9102
+    Catalog = MyCatalog
+    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+    File Retention = 60 days            # 60 days
+    Job Retention = 6 months            # six months
+    AutoPrune = yes                     # Prune expired Jobs/Files
+}
 
 
     Client {
@@ -623,17 +861,6 @@ Client {
     AutoPrune = yes                     # Prune expired Jobs/Files
 }
     
-Client {
-    Name = srv178-fd
-    Address = 10.10.0.178
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
     Client {
     Name = srv189-fd
     Address = 10.10.0.189
@@ -657,94 +884,6 @@ Client {
 }
 
 
-Client {
-    Name = srv223-fd
-    Address = 10.10.0.223
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
-Client {
-    Name = srv220-fd
-    Address = 10.10.0.220
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
-Client {
-    Name = hgsrv197-fd
-    Address = 10.10.0.197
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
-Client {
-    Name = hgsrv213-fd
-    Address = 10.10.0.213
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
-Client {
-    Name = srv222-fd
-    Address = 10.10.0.222
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
-Client {
-    Name = hgsrv209-fd
-    Address = 10.10.0.209
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
-Client {
-    Name = srv186-fd
-    Address = 10.10.0.186
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
-Client {
-    Name = srv158-fd
-    Address = 10.10.0.158
-    FDPort = 9102
-    Catalog = MyCatalog
-    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
-    File Retention = 60 days            # 60 days
-    Job Retention = 6 months            # six months
-    AutoPrune = yes                     # Prune expired Jobs/Files
-}
-
 #    client {
 #    Name = gvw-4058-fd
 #    Address = 10.10.0.13
@@ -756,5 +895,14 @@ Client {
 #    AutoPrune = yes                     # Prune expired Jobs/Files
 #}   
 
-
+    Client {
+    Name = srv220-fd
+    Address = 10.10.0.220
+    FDPort = 9102
+    Catalog = MyCatalog
+    Password = "RK8LKPX7py1BBvmkrsHIlaUqvp9cHL5bl4oz7WBVrZ6R"          # password for FileDaemon
+    File Retention = 6 months            # siz months 
+    Job Retention = 6 months            # six months
+    AutoPrune = yes                     # Prune expired Jobs/Files
+}
 
